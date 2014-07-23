@@ -1,4 +1,4 @@
-joaonzangoii.github.com
+jekyll_bootstrap_blog
 =======================
 
-jekyll-bootstrap
+Criando um blog usando o jekyll e markdown.
