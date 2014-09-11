@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
-locale: en_US
-description: Describe your website here.
+title: Tchiowa Hacker
+locale: pt_PT
+description: Vivendo e aprendendo
 logo: site-logo.png
 search: true
 url: 
@@ -32,16 +32,16 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
+  name: Joao Nzango
+  avatar: joaonzango.jpg
+  email: joaonzango@gmail.com
   disqus-shortname:
-  twitter: #username
-  facebook: #username
-  github: #username
+  twitter: joaonzango
+  facebook: joaonzangoii
+  github: #joaonzangoii
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
-  instagram: #username
+  instagram: joao_nzango
   flickr: #username
   tumblr: #username
   google:
