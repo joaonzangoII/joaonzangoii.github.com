@@ -2,8 +2,8 @@
 - title: Pagina Inicial
   url: /
 
-- title: Blog
-  url: /blog/
+# - title: Blog
+#   url: /blog/
 
 - title: Sobre-me
   url: /sobre-me/
