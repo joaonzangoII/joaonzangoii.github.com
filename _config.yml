@@ -32,7 +32,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Joao Nzango
+  name: João Nzango
   avatar: joaonzango.jpg
   email: joaonzango@gmail.com
   disqus-shortname: joaonzangoii-github-io

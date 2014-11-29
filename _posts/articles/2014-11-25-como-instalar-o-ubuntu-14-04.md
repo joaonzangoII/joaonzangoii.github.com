@@ -12,5 +12,3 @@ tags: [sample-post]
 comments: true
 share: true
 ---
-
-#O meu nome De Baptismo e Joao Maria Nzango sou Natural de Angola Provincia de Cabinda Cidade de Tchiowa
