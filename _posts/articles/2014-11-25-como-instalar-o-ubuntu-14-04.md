@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Laravel
+title: Como instalar o Ubunto 14.04
 excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
-modified: 2014-09-12
+modified: 2014-09-22
 categories: articles
 tags: [sample-post]
 <!-- image:
@@ -12,3 +12,5 @@ tags: [sample-post]
 comments: true
 share: true
 ---
+
+#O meu nome De Baptismo e Joao Maria Nzango sou Natural de Angola Provincia de Cabinda Cidade de Tchiowa
