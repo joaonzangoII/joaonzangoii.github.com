@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Como instalar o Ubunto 14.04
+title: Como instalar o Ubuntu 14.04
 excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 modified: 2014-09-22
 categories: articles
