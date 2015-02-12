@@ -17,7 +17,7 @@ published: true
 
 Chega um tempo na vida em que o ser humano tem de partilhar os conhecimentos que vem adquirindo na vida e para mim esse tempo chegou, espero sinceiramente ajudar a muitos programadores, developers e amantes de tecnologia com as publicações nesse blog e tambem espero recolher muita informação dos leitores atraves de comentarios.
 
-![ubuntu](/http://www.theinquirer.net/IMG/348/303348/canonical-ubuntu-logo-1.jpg)
+![ubuntu](http://www.theinquirer.net/IMG/348/303348/canonical-ubuntu-logo-1.jpg)
 
 A primeira publicação deste blog será sobre o Ubuntu pois será o Sistema operativo em que a maior parte das publicações serão baseadas!
 
