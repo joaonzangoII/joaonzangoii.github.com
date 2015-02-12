@@ -26,6 +26,7 @@ A primeira publicação deste blog será sobre o Ubuntu pois será o Sistema ope
 Ubuntu é um sistema operacional baseado em Linux desenvolvido pela comunidade e é perfeito para notebooks, desktops e servidores. Ele contém todos os aplicativos que você precisa - um navegador web, programas de apresentação, edição de texto, planilha eletrônica, comunicador instantâneo e muito mais.
 
 **O que a palavra Ubuntu significa?**
+
 Ubuntu é uma antiga palavra africana que significa algo como "Humanidade para os outros" ou ainda "Sou o que sou pelo que nós somos". A distribuição Ubuntu traz o espírito desta palavra para o mundo do software livre.
 
 "Uma pessoa com Ubuntu está aberta e disponível aos outros, assegurada pelos outros, não sente intimidada que os outros sejam capazes e bons, para ele ou ela ter própria auto-confiança que vem do conhecimento que ele ou ela tem o seu próprio lugar no grande todo."
