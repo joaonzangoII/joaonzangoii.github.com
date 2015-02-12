@@ -15,7 +15,7 @@ Tchiowa Hacker é o pseudônimo de João Maria Nzango um desenvolvedor de Aplica
 formado em Sistemas Industriais Inteligentes pela Tshwane University of Technology (TUT) na África do Sul, amante 
 de programação desde o ano de 2010 quando foi introduzido a programação na aula de DSO (Desenvolvimento de softwares) na forma de VB.net e Algoritmos.
 
-# Linguages de programação que estudadas?
+# Linguages de programação já estudadas?
 As linguages de programação que já tive contacto sao:
 - VB.net
 - C/c++/C#
