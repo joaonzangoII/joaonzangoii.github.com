@@ -1,15 +1,11 @@
 # Site navigation links
-- title: Pagina Inicial
-  url: /
 
-# - title: Blog
-#   url: /blog/
 
-- title: Sobre-me
+- title: Publicações
+  url: /publicacoes/
+
+- title: Sobre Me
   url: /sobre-me/
-
-# - title: Articles
-#   url: /articles/
 
 # - title: Theme Setup
 #   url: /theme-setup/
