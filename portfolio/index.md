@@ -15,8 +15,11 @@ published: true
 * [<i class="fa fa-link"></i> FlashCabinda](http://flashcabinda.com)
 * [<i class="fa fa-link"></i> JNZ-TH](http://jnz-th.com)
 * [<i class="fa fa-link"></i> Lubelna Portal](http://lubelnaportal.com)
+* [<i class="fa fa-link"></i> Fabio Music](http://fabiomusic.flashcabinda.com)
 
 # <i class="fa fa-mobile"></i> Aplicativos
+
+* [<i class="fa fa-link"></i> GK Electronik](https://www.youtube.com/watch?v=QFPuFe59XcQ)
 
 * MyAngola
 <a href="https://play.google.com/store/apps/details?id=myangola.general">
