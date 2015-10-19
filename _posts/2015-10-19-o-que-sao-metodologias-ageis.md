@@ -2,7 +2,6 @@
 layout: post
 title: "O que são Metodologias Ágeis"
 excerpt: "Metendo em prespectiva desenvolvimento ágil é uma forma diferente de gerir os grupos de desenvolvimentos de TIC e projectos."
-modified: {}
 categories: articles
 tags: 
   - "agile"
@@ -11,12 +10,12 @@ tags:
 "<!-- image": 
   feature: "so-simple-sample-image-1.jpg"
   credit: WeGraphics
-  creditlink: "http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/ -->"
+  creditlink: "http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/ 
+  modified: {}-->"
 comments: true
 share: true
 published: true
 ---
-#** O que são Metodologias Ágeis **
 
 **O que e ágil?** 
 
@@ -25,12 +24,15 @@ published: true
 Metendo em prespectiva desenvolvimento ágil é uma forma diferente de gerir os grupos de desenvolvimentos de TIC e projectos.
 
 O uso da palavra ágil no contexto das TIC surge apartir do "Manifesto Agil". Um pequeno grupo de pessoas se reuniu no ano de 2001 para discutir os seus sentimentos e pontos de vista sobre os métodos tradicionais que eram usados na altura para gerir o desenvolvimentos de programas "software" que falhavam na maior parte das vezes, e essas pessoas decidiram que tinha de haver uma alternativa. O Manifesto ágil foi criado com 4 valores importantes que continuão a ser tão importantes de quando foram criados, esses valores são:
--Indivíduos e interações mais que processos e ferramentas
--Software em funcionamento mais que documentação abrangente
--Colaboração com o cliente mais que negociação de contratos
--Responder a mudanças mais que seguir um plano
+
+- Indivíduos e interações mais que processos e ferramentas
+- Software em funcionamento mais que documentação abrangente
+- Colaboração com o cliente mais que negociação de contratos
+- Responder a mudanças mais que seguir um plano
+
 
 **Os 12 princípios do agile**
+
 1. Nossa maior prioridade é satisfazer o cliente através da entrega contínua e adiantada de software com valor agregado.
 2. Mudanças nos requisitos são bem-vindas, mesmo tardiamente no desenvolvimento. Processos ágeis tiram vantagem das 
 mudanças visando vantagem competitiva para o cliente.
@@ -46,6 +48,7 @@ mudanças visando vantagem competitiva para o cliente.
 12. Em intervalos regulares, a equipe reflete sobre como se tornar mais eficaz e então refina e ajusta seu comportamento de acordo.
 
 **Metodologias ágeis que existem e as mais utilizadas?**
+
 “Desenvolvimento ágil" é o termo utilizado por diferentes metodologias e frameworks que desenvolvem software de forma iterativa e incremental. 
 
 Algumas são mais prescritivas ou menos mas as metodologias ágeis mais comuns são: Extreme Programming (XP), Scrum, Lean Development, Feature-Driven Development (FDD), Kanban, RUP e OpenUP.
@@ -54,7 +57,7 @@ Varias pesquisas demontram a maior preferencia no uso do Scrum como o métodos �
 
 Apesar da aplicacao do ágil não ser uma tarefa fácil com muita disciplina e  determinação as coisas se tornam mais faceis.
 
-**Ler Mais em:**
+**Ler Mais em:** 
 
 - https://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software
 - http://www.allaboutagile.com/what-is-agile-10-key-principles/ (Ingles)
