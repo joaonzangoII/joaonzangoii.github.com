@@ -3,9 +3,10 @@ published: true
 ---
 
 
-#O que são Metodologias Ágeis 
+#** O que são Metodologias Ágeis **
 
 **O que e ágil?** 
+
 Ágil é um dos termos mais utilizados no mundo das TIC actualmente. Mas o que signufica o desenvolvimento de software usando as metodologoas ágeis?
 
 Metendo em prespectiva desenvolvimento ágil é uma forma diferente de gerir os grupos de desenvolvimentos de TIC e projectos.
@@ -40,8 +41,9 @@ Varias pesquisas demontram a maior preferencia no uso do Scrum como o métodos �
 
 Apesar da aplicacao do ágil não ser uma tarefa fácil com muita disciplina e  determinação as coisas se tornam mais faceis.
 
-Ler Mais em:
--https://www.ibm.com/developerworks/community/blogs/rationalbrasil/entry/mas_o_que_s_c3_a3o_essas_tais_de_metodologias__c3_a1geis?lang=en
+**Ler Mais em:**
+
 - https://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software
 - http://www.allaboutagile.com/what-is-agile-10-key-principles/ (Ingles)
 - http://www.brq.com/metodologias-ageis/
+- https://www.ibm.com/developerworks/community/blogs/rationalbrasil/entry/mas_o_que_s_c3_a3o_essas_tais_de_metodologias__c3_a1geis
