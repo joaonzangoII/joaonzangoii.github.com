@@ -2,7 +2,6 @@
 published: true
 ---
 
-
 #** O que são Metodologias Ágeis **
 
 **O que e ágil?** 
