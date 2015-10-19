@@ -8,7 +8,7 @@ published: false
 
 Metendo em prespectiva desenvolvimento ágil é uma forma diferente de gerir os grupos de desenvolvimentos de TIC e projectos.
 
-O uso da palavra ágil no contexto das TIC surge apartir do "Manifesto Agil". Um pequeno grupo de pessoas se reuniu no ano de 2001 para discutir os seus sentimentos e pontos de vista sobre os metodos tradicionais que eram usados na altura para gerir o desenvolvimentos de programas "software" que falhavam na maior parte das vezes, e essas pessoas decidiram que tinha de haver uma alternativa. O Manifesto agil foi criado com 4 valores importantes que continuão a ser tão importantes de quando foram criados, esses valores são:
+O uso da palavra ágil no contexto das TIC surge apartir do "Manifesto Agil". Um pequeno grupo de pessoas se reuniu no ano de 2001 para discutir os seus sentimentos e pontos de vista sobre os métodos tradicionais que eram usados na altura para gerir o desenvolvimentos de programas "software" que falhavam na maior parte das vezes, e essas pessoas decidiram que tinha de haver uma alternativa. O Manifesto ágil foi criado com 4 valores importantes que continuão a ser tão importantes de quando foram criados, esses valores são:
 -Indivíduos e interações mais que processos e ferramentas
 -Software em funcionamento mais que documentação abrangente
 -Colaboração com o cliente mais que negociação de contratos
@@ -31,8 +31,10 @@ mudanças visando vantagem competitiva para o cliente.
 
 **Metodologias ágeis que existem e as mais utilizadas?**
 “Desenvolvimento ágil" é o termo utilizado por diferentes metodologias e frameworks que desenvolvem software de forma iterativa e incremental. 
+
 Algumas são mais prescritivas ou menos mas as metodologias ágeis mais comuns são: Extreme Programming (XP), Scrum, Lean Development, Feature-Driven Development (FDD), Kanban, RUP e OpenUP.
-Pesquisas mostram que o Scrum é de longe o framework mais utilizado por ser o mais simples e de fácil adoção e adaptação.
+
+Varias pesquisas demontram a maior preferencia no uso do Scrum como o métodos ágil mais usado, pelo facto de ser o mais simples e ser fácil a sua adaptação. 
 
 Apesar da aplicacao do ágil não ser uma tarefa fácil com muita disciplina e  determinação as coisas se tornam mais faceis.
 
