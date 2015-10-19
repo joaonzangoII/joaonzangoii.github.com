@@ -5,7 +5,8 @@ published: true
 
 #O que são Metodologias Ágeis 
 
-**O que e ágil?** ágil é um dos termos mais utilizados no mundo das TIC actualmente. Mas o que signufica o desenvolvimento de software usando as metodologoas ágeis?
+**O que e ágil?** 
+Ágil é um dos termos mais utilizados no mundo das TIC actualmente. Mas o que signufica o desenvolvimento de software usando as metodologoas ágeis?
 
 Metendo em prespectiva desenvolvimento ágil é uma forma diferente de gerir os grupos de desenvolvimentos de TIC e projectos.
 
