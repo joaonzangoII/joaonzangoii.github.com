@@ -34,6 +34,7 @@ mudanças visando vantagem competitiva para o cliente.
 Algumas são mais prescritivas ou menos mas as metodologias ágeis mais comuns são: Extreme Programming (XP), Scrum, Lean Development, Feature-Driven Development (FDD), Kanban, RUP e OpenUP.
 Pesquisas mostram que o Scrum é de longe o framework mais utilizado por ser o mais simples e de fácil adoção e adaptação.
 
+Aplicar o ágil não é uma tarefa fácil. Exige determinação e disciplina.
 
 
 
