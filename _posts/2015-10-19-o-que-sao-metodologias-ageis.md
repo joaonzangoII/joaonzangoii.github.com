@@ -59,7 +59,7 @@ Apesar da aplicacao do ágil não ser uma tarefa fácil com muita disciplina e  
 
 **Ler Mais em:** 
 
-- https://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software
-- http://www.allaboutagile.com/what-is-agile-10-key-principles/ (Ingles)
-- http://www.brq.com/metodologias-ageis/
-- https://www.ibm.com/developerworks/community/blogs/rationalbrasil/entry/mas_o_que_s_c3_a3o_essas_tais_de_metodologias__c3_a1geis
+- <a href="https://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software">https://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software</a>
+- <a href="http://www.allaboutagile.com/what-is-agile-10-key-principles/">http://www.allaboutagile.com/what-is-agile-10-key-principles/(Ingles)</a>
+- <a href="http://www.brq.com/metodologias-ageis/">http://www.brq.com/metodologias-ageis/</a> 
+- <a href="https://www.ibm.com/developerworks/community/blogs/rationalbrasil/entry/mas_o_que_s_c3_a3o_essas_tais_de_metodologias__c3_a1geis">https://www.ibm.com/developerworks/community/blogs/rationalbrasil/entry/mas_o_que_s_c3_a3o_essas_tais_de_metodologias__c3_a1geis</a>
