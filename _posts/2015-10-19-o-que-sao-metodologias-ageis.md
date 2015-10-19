@@ -1,12 +1,26 @@
 ---
+layout: post
+title: "O que são Metodologias Ágeis"
+excerpt: "Metendo em prespectiva desenvolvimento ágil é uma forma diferente de gerir os grupos de desenvolvimentos de TIC e projectos."
+modified: {}
+categories: articles
+tags: 
+  - "agile"
+  - "Ágil"
+  - "Thinkbots"
+"<!-- image": 
+  feature: "so-simple-sample-image-1.jpg"
+  credit: WeGraphics
+  creditlink: "http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/ -->"
+comments: true
+share: true
 published: true
 ---
-
 #** O que são Metodologias Ágeis **
 
 **O que e ágil?** 
 
-Ágil é um dos termos mais utilizados no mundo das TIC actualmente. Mas o que signufica o desenvolvimento de software usando as metodologoas ágeis?
+Ágil é um dos termos mais utilizados no mundo das TIC actualmente. Mas o que significa o desenvolvimento de software usando as metodologoas ágeis?
 
 Metendo em prespectiva desenvolvimento ágil é uma forma diferente de gerir os grupos de desenvolvimentos de TIC e projectos.
 
