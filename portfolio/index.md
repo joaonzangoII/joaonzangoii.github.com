@@ -17,6 +17,7 @@ published: true
 * [<i class="fa fa-link"></i> Lubelna Portal](http://lubelnaportal.com)
 * [<i class="fa fa-link"></i> Fabio Music](http://fabiomusic.flashcabinda.com)
 * [<i class="fa fa-link"></i> I am extraordinary](http://iamextraordinary.co.za/)
+* [<i class="fa fa-link"></i> Kandengue](http://kandengue.com)
 
 # <i class="fa fa-mobile"></i> Aplicativos
 
