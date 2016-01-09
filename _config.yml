@@ -1,51 +1,33 @@
-# Site wide configuration
-title: Tchiowa Hacker
-locale: pt_PT
-description: Vivendo e aprendendo
-logo: th.jpg
-search: true
-url: 
-
-# Jekyll configuration
-
-permalink:   /:categories/:title/
-markdown:    kramdown
+# top level stuff you probably don't need to touch
 highlighter: pygments
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 3000
+safe: true
 
 
-# Site owner
-owner:
-  name: João Nzango
-  avatar: joaonzango.jpg
-  email: joaonzango@gmail.com
-  disqus-shortname: joaonzangoii-github-io
-  twitter: joaonzango
-  facebook: joaonzangoii
-  github: #joaonzangoii
-  stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: joaonzangoii
-  instagram: joao_nzango
-  flickr: #username
-  tumblr: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot: 
-  bing-verify:
+# edit here to achieve your personal greatness
+url: http://joaonzangoii.github.io/
+baseurl: /
+title: Tchiowa Hacker
+author: Joâo Nzango
+description: Blog Pessoal e CV
+avatar: profile.jpg
+email: joaonzango@gmail.com
+github: /joaonzangoII/joaonzangoii.github.com # username
+twitter: joaonzango
+linkedin: joaonzangoii
+# stackoverflow: username   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus 
+disqus: joaonzangoii-github-io
+google_analytics: UA-47484774-5
+website: joaonzangoii.github.io
+website_full: https://joaonzangoii.github.io
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+# needed for travis-ci build
+exclude: [vendor]

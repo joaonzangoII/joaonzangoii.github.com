@@ -1,110 +1,45 @@
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-<head>
-{% include _head.html %}
-</head>
-
-<body class="post">
-
-{% include _browser-upgrade.html %}
-
-{% include _navigation.html %}
-
-{% if page.image.feature %}
-  <div class="image-wrap">
-  <img src=
-    {% if page.image.feature contains 'http' %}
-      "{{ page.image.feature }}"
-    {% else %}
-      "{{ site.url }}/images/{{ page.image.feature }}"
-    {% endif %}
-  alt="{{ page.title }} feature image">
-  {% if page.image.credit %}
-    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
-  {% endif %}
-  </div><!-- /.image-wrap -->
-{% endif %}
-
-<div id="main" role="main">
-  <div class="article-author-side">
-    {% include _author-bio.html %}
-  </div>
-  <article class="post">
-    <div class="headline-wrap">
-      {% if page.link %}
-        <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
-      {% else %}
-        <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
-      {% endif %}
-    </div><!--/ .headline-wrap -->
-    <div class="article-wrap">
-      {{ content }}
-      <hr />
-      <!-- Whitespace added for readability -->
-      {% assign m = page.date | date: "%-m" %}
-      {% case m %}
-        {% when '1' %}{% assign month = Janeiro %}
-        {% when '2' %}{% assign month = "Fevereiro" %}
-        {% when '3' %}{% assign month = "Marco" %}
-        {% when '4' %}{% assign month = "Abril" %}
-        {% when '5' %}{% assign month = "Maio" %}
-        {% when '6' %}{% assign month = "Junho" %}
-        {% when '7' %}{% assign month = "Julho" %}
-        {% when '8' %}{% assign month = "Agosto" %}
-        {% when '9' %}{% assign month = "Setembro" %}
-        {% when '10' %}{% assign month = "Outubro" %}
-        {% when '11' %}{% assign month = "Novembro" %}
-        {% when '12' %}{% assign month = "Dezembro" %}
-      {% endcase %}
-      <footer role="contentinfo">
-        {% if page.share != false %}{% include _social-share.html %}{% endif %}
-        <p class="byline"><strong>{{ page.title }}</strong> foi publicado em <time datetime="{{ page.date | date: "%-m" | date_to_xmlschema }}">
-        {{ page.date | date: "%-d" }} {{ month }} {{ page.date | date: "%Y" }}</time>
-
-        {% assign m = page.modified | date: "%-m" %}
-        {% case m %}
-          {% when '1' %}{% assign month = "Janeiro" %}
-          {% when '2' %}{% assign month = "Fevereiro" %}
-          {% when '3' %}{% assign month = "Marco" %}
-          {% when '4' %}{% assign month = "Abril" %}
-          {% when '5' %}{% assign month = "Maio" %}
-          {% when '6' %}{% assign month = "Junho" %}
-          {% when '7' %}{% assign month = "Julho" %}
-          {% when '8' %}{% assign month = "Agosto" %}
-          {% when '9' %}{% assign month = "Setembro" %}
-          {% when '10' %}{% assign month = "Outubro" %}
-          {% when '11' %}{% assign month = "Novembro" %}
-          {% when '12' %}{% assign month = "Dezembro" %}
-        {% endcase %}
-
-        {% if page.modified %} e modificado em <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%-d" }} {{ month }} {{ page.modified | date: "%Y" }}</time>{% endif %}.</p>
-      </footer>
-    </div><!-- /.article-wrap -->
-  {% if site.owner.disqus-shortname and page.comments == true %}
-    <section id="disqus_thread"></section><!-- /#disqus_thread -->
-  {% endif %}
-  </article>
-</div><!-- /#main -->
-
-<div class="footer-wrap">
-  <div class="related-articles">
-  <h4>Você também pode desfrutar <small class="pull-right">(<a href="{{ site.url }}/publicacoes/">Ver publicacoes</a>)</small></h4>
-    <ul>
-    {% for post in site.related_posts limit:3 %}
-      <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
-    <hr />
-  </div><!-- /.related-articles -->
-  <footer>
-    {% include _footer.html %}
-  </footer>
-</div><!-- /.footer-wrap -->
-
-{% include _scripts.html %}	        
-{% include google_analytics.html %}
-</body>
-</html>
+---
+layout: layout
+---
+<div class="container">
+	<div class="blog-post">
+		<h3>
+		  <strong><a href="{{ page.url }}">{{ page.title }}</a></strong>
+		</h3>
+	</div>
+	<div class="blog-title">
+		<h4>
+		{{ page.date | date: "%B %e, %Y" }}
+			&nbsp;&nbsp;
+			{% for tag in page.tags %}
+			 <span class="label label-success">{{ tag }}</span>
+			{% endfor %}
+		</h4>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<div class="blogpost">
+			  {{ content }}
+			   <hr>
+			   <div class="related-posts">
+				   <h5>Related Posts</h5>
+				   {% for post in site.related_posts limit:3 %}
+						<div class="row">
+							 <div class="col-sm-4 col-md-4 col-lg-4">
+								 <h6 style="text-align: right">
+								 	{{ post.date | date: "%B %e, %Y" }}
+								 </h6>
+							 </div>
+							 <div class="col-sm-8 col-md-8 col-lg-8">
+								 <h6 style="text-align: left">
+								 	<strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
+								 </h6>
+							 </div>
+						</div>
+					{% endfor %}
+			   </div>
+			</div>
+		</div>
+	</div>
+	{% include disqus.html %}
+</div>
