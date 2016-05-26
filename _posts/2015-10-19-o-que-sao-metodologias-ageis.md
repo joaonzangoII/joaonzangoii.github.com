@@ -8,17 +8,17 @@ tags:
   - "agile"
   - "Ágil"
   - "Thinkbots"
-"<!-- image": 
+"<!-- image":
   feature: "so-simple-sample-image-1.jpg"
   credit: WeGraphics
-  creditlink: "http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/ 
+  creditlink: "http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
   modified: {}-->"
 comments: true
 share: true
 published: true
 ---
 
-**O que e ágil?** 
+**O que e ágil?**
 
 Ágil é um dos termos mais utilizados no mundo das TIC actualmente. Mas o que significa o desenvolvimento de software usando as metodologoas ágeis?
 
