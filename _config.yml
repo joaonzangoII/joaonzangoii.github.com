@@ -14,7 +14,7 @@ safe: true
 url: http://joaonzangoii.github.io/
 baseurl: /
 title: Tchiowa Hacker
-author: Joâo Nzango
+author: João Nzango
 description: Blog Pessoal e CV
 avatar: profile.jpg
 email: joaonzango@gmail.com
@@ -22,7 +22,7 @@ github: /joaonzangoII/joaonzangoii.github.com # username
 twitter: joaonzango
 linkedin: joaonzangoii
 # stackoverflow: username   #e.g: users/2735833/proton1h1
-#Comment out if you don't want disqus 
+#Comment out if you don't want disqus
 disqus: joaonzangoii-github-io
 google_analytics: UA-47484774-5
 website: joaonzangoii.github.io
