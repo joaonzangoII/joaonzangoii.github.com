@@ -27,7 +27,7 @@ Tendo ja usado as duas livrarias na qual faremos as nossas comparaçoes, posso j
 
 Em primeiro lugar vamos ver exemplos de como as duas livrarias sao usadas antes de comecar a comparacao em termos de velocidade e de como cada se sai em termos de parsear grandes arquivos JSON.
 
-##Exemplo 1: Usando o Jackson
+## Exemplo 1: Usando o Jackson
 
 Para  testar o codigo e necesarrio criar um arquivo JSON chamado grandeJson.json e depois copiar para que ele use os APIs do Jackson. Podes muito bem usar os seus dados proprios em vez de usar os ja recem criados. Podem tambem ser usador criadores de JSON online.
 
@@ -117,7 +117,7 @@ Para  testar o codigo e necesarrio criar um arquivo JSON chamado grandeJson.json
 {% endhighlight %}
 
 
-###Dependencias
+### Dependencias
 
 - Maven
   {% highlight css%}
