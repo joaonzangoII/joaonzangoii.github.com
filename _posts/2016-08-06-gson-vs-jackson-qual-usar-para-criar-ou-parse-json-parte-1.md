@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gson vs Jackson: Qual usar para criar ou parse Json"
+title: "Gson vs Jackson: Qual usar para criar ou parse Json Parte 1"
 excerpt: "Como usar as duas mais poderosas livrarias para parsear Json num programa usando JAVA"
 modified: {}
 categories: articles
