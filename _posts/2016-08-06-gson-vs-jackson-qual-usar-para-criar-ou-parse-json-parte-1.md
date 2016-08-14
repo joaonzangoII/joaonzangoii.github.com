@@ -2,7 +2,7 @@
 layout: post
 title: "Gson vs Jackson: Qual usar para criar ou parse Json Parte 1"
 excerpt: "Como usar as duas mais poderosas livrarias para parsear Json num programa usando JAVA"
-modified: {}
+modified: 2016-08-14
 categories: articles
 tags:
   - "Java"
@@ -18,18 +18,18 @@ No mundo da programação de software livre existem sempre curiosos a desenvolve
 
 Desta feita faremos uma pequena comparação entre duas poderosas livrarias usadas para parsear JSON que significa Notação de objeto JavaScript (<em>JavaScript Object Notation</em>)
 
-E de salientar que ainda existem outras livrarias usadas para parsear json como:
+È de salientar que ainda existem outras livrarias usadas para parsear json como:
 
 - Yidong Fang’s JSON.simple <a href="https://github.com/fangyidong/json-simple">(https://github.com/fangyidong/json-simple)</a>
 - Oracle’s JSONP <a href="https://jsonp.java.net">(https://jsonp.java.net)</a>
 
-Tendo ja usado as duas livrarias na qual faremos as nossas comparaçoes, posso ja adiantar que a difrerenca entre as duas e mais notavel na forma como as duas foram escritas e desenvolvidas do que em termos de velocidade apesar que os numeros mostrarao algo totalmente diferente baseados em certos benchmarks ja feitos.
+Tendo já usado as duas livrarias na qual faremos as nossas comparações, posso adiantar que a difrerença entre as duas é mais notavel na forma como as duas foram escritas e desenvolvidas do que em termos de velocidade apesar que os números mostrarão algo totalmente diferente baseados em certos benchmarks já feitos.
 
-Em primeiro lugar vamos ver exemplos de como as duas livrarias sao usadas antes de comecar a comparacao em termos de velocidade e de como cada se sai em termos de parsear grandes arquivos JSON.
+Em primeiro lugar vamos ver exemplos de como as duas livrarias são usadas antes de começar a comparação em termos de velocidade e de como cada se sai em termos de parsear grandes arquivos JSON.
 
 ## Exemplo 1: Usando o Jackson
 
-Para  testar o codigo e necesarrio criar um arquivo JSON chamado grandeJson.json e depois copiar para que ele use os APIs do Jackson. Podes muito bem usar os seus dados proprios em vez de usar os ja recem criados. Podem tambem ser usador criadores de JSON online.
+Para  testar o código é necessário criar um arquivo JSON chamado grandeJson.json e depois copiar para que ele use os APIs do Jackson. Podes muito bem usar os seus dados proprios em vez de usar os já criados. Podem também ser usados criadores de JSON online.
 
 {% highlight java %}
 
