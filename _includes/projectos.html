@@ -7,162 +7,27 @@
         <table class="table table-bordered table-stripedtable-hover">
           <thead>
             <tr>
-              <th><h3><i class="fa fa-globe"></i> Websites</h3></th>
-              <th colspan="4"><h3><i class="fa fa-mobile"></i> Aplicativos</h3></th>
+              <th><h3> Nome</h3></th>
+              <th><h3>Tipo</h3></th>
+              <th><h3>Criado com</h3></th>
             </tr>
           </thead>
           <tbody>
+            {% for website in site.data.projectos %}
             <tr>
-              <td>
-                <h5>
-                  <strong>
-                    <a target="_blank" href="http://revistacabinda.com">RevistaCabinda</a>
-                  </strong>
-            		</h5>
-              </td>
-              <td>
-                <h5>
-                  <strong>
-                    RevistaCabinda
-                  </strong>
-                </h5>
-               </td>
-               <td colspan="2">
-                 <a target="_blank" href="https://play.google.com/store/apps/details?id=app.revistacabinda">
-                  <img width="50" height="50"  alt="Android app on Google Play" src="/static/img/android.png" />
-                 </a>
-               </td>
-               <td colspan="2"></td>
-             </tr>
-             <tr>
-              <td>
-                <h5>
-                   <strong>
-                     <a target="_blank" href="http://flashcabinda.com">FlashCabinda</a>
-                   </strong>
-                </h5>
-              </td>
-              <td>
-                <h5>
-                  <strong>
-                    MyAngola
-                  </strong>
-                </h5>
-               </td>
-               <td colspan="2">
-                 <a target="_blank" href="https://play.google.com/store/apps/details?id=myangola.general">
-                  <img width="50" height="50"  alt="Android app on Google Play" src="/static/img/android.png" />
-                 </a>
-               </td>
-               <td colspan="2"></td>
-              </tr>
-              <tr>
-                <td>
-                  <h5>
-                    <strong>
-                      <a target="_blank" href="http://jnz-th.com">JNZ-TH</a>
-                    </strong>
-                  </h5>
-                </td>
-                <td>
-                 <h5>
-                   <strong>
-                     City Of Tshwane
-                   </strong>
-                 </h5>
-               </td>
-               <td colspan="2">
-                 <a target="_blank" href="https://play.google.com/store/apps/details?id=cityoftshwane.general">
-                  <img width="50" height="50"  alt="Android app on Google Play" src="/static/img/android.png" />
-                 </a>
-               </td>
-               <td colspan="2">
-                 <a target="_blank" href="https://play.google.com/store/apps/details?id=cityoftshwane.general">
-                  <img width="50" height="50"  alt="Windows app on Windows Market" src="/static/img/windows_phone.png" />
-                 </a>
-               </td>
-              </tr>
-              <tr>
-                <td>
-                  <h5>
-                    <strong>
-                      <a target="_blank" href="http://lubelnaportal.com">Lubelna Portal</a>
-                    </strong>
-                  </h5>
-                </td>
-                <td>
-                 <h5>
-                   <strong>
-                     Ana Bungo Blog
-                   </strong>
-                 </h5>
-               </td>
-               <td colspan="2">
-                 <a target="_blank" href="https://play.google.com/store/apps/details?id=com.itech.anabungo">
-                  <img width="50" height="50"  alt="Android app on Google Play" src="/static/img/android.png" />
-                 </a>
-               </td>
-                <td colspan="2"></td>
-              </tr>
-              <tr>
-                <td>
-                  <h5>
-                    <strong>
-                      <a target="_blank" href="http://fabiomusic.flashcabinda.com">Fabio Music</a>
-                    </strong>
-                  </h5>
-                </td>
-                <td>
-                 <h5>
-                 <strong>
-                   Car News
-                 </strong>
-                 </h5>
-               </td>
-               <td colspan="2"></td>
-               <td colspan="2">
-                 <a target="_blank" href="http://www.windowsphone.com/en-za/store/app/car-news/3cbe3b53-d191-4858-8765-686d73c87081">
-                  <img width="50" height="50"  alt="Windows app on Windows Market" src="/static/img/windows_phone.png" />
-                 </a>
-               </td>
-              </tr>
-              <tr>
-                <td>
-                  <h5>
-                    <strong>
-                      <a target="_blank" href="http://iamextraordinary.co.za/">I am extraordinary</a>
-                    </strong>
-                  </h5>
-                </td>
-                <td>
-                  <h5>
-                    <strong>
-                      GK Electronik
-                    </strong>
-                  </h5>
-                </td>
-                <td colspan="2">
-                  <a target="_blank" href="https://www.youtube.com/watch?v=QFPuFe59XcQ">
-                     <img width="50" height="50"  alt="Android app on Google Play" src="/static/img/youtube.png" />
-                   </a>
-                   <a target="_blank" href="https://www.youtube.com/watch?v=QFPuFe59XcQ">
-                     <img width="50" height="50"  alt="Android app on Google Play" src="/static/img/android.png" />
-                  </a>
-                </td>
-                <td colspan="2"></td>
-              </tr>
-              <tr>
-                <td>
-                  <h5>
-                    <strong>
-                      <a target="_blank" href="http://kandengue.com/">Kandengue</a>
-                    </strong>
-                  </h5>
-                </td>
-                <td></td>
-                <td colspan="2"></td>
-                <td colspan="2"></td>
-              </tr>
+              <th>
+                <a href="{{ website.link }}">
+                  {{ website.name }}
+                </a>
+              </th>
+              <th>
+                {{ website.tipo }}
+              </th>
+              <th>
+                {{ website.frameworks }}
+              </th>
+            </tr>
+            {% endfor %}
           </tbody>
         </table>
       </div>

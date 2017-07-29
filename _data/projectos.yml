@@ -1,0 +1,65 @@
+- name: Ivango TI
+  year_published: 2017
+  link: https://www.ivangoti.com
+  tipo: Website
+  frameworks: VueJs
+- name: Chankura (Admin)
+  year_published: 2017
+  link: https://www.chankura.com
+  tipo: Website
+  frameworks: Ruby on Rails
+- name: RevistaCabinda
+  year_published: 2016
+  link: https://www.revistacabinda.com
+  tipo: Website
+  frameworks: Laravel PHP
+- name: RevistaCabinda
+  year_published: 2016
+  link: https://play.google.com/store/apps/details?id=app.revistacabinda
+  tipo: Aplicativo
+  frameworks: Android
+- name: Jnz-TH Link Shortener (Projecto Fora do Ar)
+  year_published: 2015
+  link: http://www.jnz-th.com
+  tipo: Website
+  frameworks: Laravel PHP
+- name: FlashCabinda (Projecto Fora do Ar)
+  year_published: 2015
+  link: https://www.flashcabinda.com
+  tipo: Website
+  frameworks: Laravel PHP
+- name: Fabio Music (Projecto Fora do Ar)
+  year_published: 2015
+  link: https://www.fabiomusic.flashcabinda.com
+  tipo: Website
+  frameworks: Laravel PHP
+- name: I am Extraordinary
+  year_published: 2015
+  link: http://iamextraordinary.co.za
+  tipo: Website
+  frameworks: Wordpress
+- name: Kandengue Games (Projecto Fora do Ar)
+  year_published: 2015
+  link: https://kandengue.com
+  tipo: Website
+  frameworks: Laravel PHP
+- name: GK Electronics Augmented Reality App
+  year_published: 2014
+  link: https://www.youtube.com/watch?v=QFPuFe59XcQ
+  tipo: Aplicativo
+  frameworks: Android
+- name: Ana Bungo
+  year_published: 2014
+  link: https://play.google.com/store/apps/details?id=com.itech.anabungo
+  tipo: Aplicativo
+  frameworks: Android
+- name: My Angola
+  year_published: 2014
+  link: https://play.google.com/store/apps/details?id=myangola.general
+  tipo: Aplicativo
+  frameworks: Android
+- name: City of Tshwane
+  year_published: 2014
+  link: https://play.google.com/store/apps/details?id=cityoftshwane.general
+  tipo: Aplicativo
+  frameworks: Android
