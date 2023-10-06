@@ -7,9 +7,10 @@
         <table class="table table-bordered table-stripedtable-hover">
           <thead>
             <tr>
-              <th><h3> Nome</h3></th>
+              <th><h3>Nome</h3></th>
               <th><h3>Tipo</h3></th>
-              <th><h3>Criado com</h3></th>
+              <th><h3>Estado</h3></th>
+              <th><h3>Tech Stack</h3></th>
             </tr>
           </thead>
           <tbody>
@@ -20,12 +21,9 @@
                   {{ website.name }}
                 </a>
               </th>
-              <th>
-                {{ website.tipo }}
-              </th>
-              <th>
-                {{ website.frameworks }}
-              </th>
+              <th>{{ website.tipo }}</th>
+              <th>{{ website.estado }}</th>
+              <th>{{ website.frameworks }}</th>
             </tr>
             {% endfor %}
           </tbody>

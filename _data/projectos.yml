@@ -1,65 +1,100 @@
+- name: Fit em 14 Semanas
+  year_published: 2018
+  link: https://www.fitem14semanas.com
+  tipo: Website
+  estado: Fora do ar
+  frameworks: Laravel PHP + ReactJS + VueJS
+  estado: No ar
+- name: Uzeka.app
+  year_published: 2022
+  link: https://www.uzeka.app
+  tipo: Mobile
+  estado: Fora do ar
+  frameworks: Flutter (IOS + Androis)
+  estado: No ar
+- name: Uzeka.app
+  year_published: 2021
+  link: https://www.uzeka.app
+  tipo: Website
+  estado: Fora do ar
+  frameworks: NodeJS + Python
+  estado: No ar
 - name: Ivango TI
   year_published: 2017
   link: https://www.ivangoti.com
   tipo: Website
+  estado: Fora do ar
   frameworks: VueJs
+  estado: Fora do ar
 - name: Chankura (Admin)
   year_published: 2017
   link: https://www.chankura.com
   tipo: Website
+  estado: Fora do ar
   frameworks: Ruby on Rails
 - name: RevistaCabinda
   year_published: 2016
   link: https://www.revistacabinda.com
   tipo: Website
   frameworks: Laravel PHP
+  estado: Fora do ar
 - name: RevistaCabinda
   year_published: 2016
   link: https://play.google.com/store/apps/details?id=app.revistacabinda
   tipo: Aplicativo
   frameworks: Android
-- name: Jnz-TH Link Shortener (Projecto Fora do Ar)
+  estado: Fora do ar
+- name: Jnz-TH Link Shortener
   year_published: 2015
   link: http://www.jnz-th.com
   tipo: Website
   frameworks: Laravel PHP
-- name: FlashCabinda (Projecto Fora do Ar)
+  estado: Fora do ar
+- name: FlashCabinda
   year_published: 2015
   link: https://www.flashcabinda.com
   tipo: Website
   frameworks: Laravel PHP
-- name: Fabio Music (Projecto Fora do Ar)
+  estado: Fora do ar  
+- name: Fabio Music
   year_published: 2015
   link: https://www.fabiomusic.flashcabinda.com
   tipo: Website
   frameworks: Laravel PHP
+  estado: Fora do ar
 - name: I am Extraordinary
   year_published: 2015
   link: http://iamextraordinary.co.za
   tipo: Website
   frameworks: Wordpress
-- name: Kandengue Games (Projecto Fora do Ar)
+  estado: Fora do ar
+- name: Kandengue Games
   year_published: 2015
   link: https://kandengue.com
   tipo: Website
   frameworks: Laravel PHP
+  estado: Fora do ar
 - name: GK Electronics Augmented Reality App
   year_published: 2014
   link: https://www.youtube.com/watch?v=QFPuFe59XcQ
   tipo: Aplicativo
   frameworks: Android
+  estado: Fora do ar
 - name: Ana Bungo
   year_published: 2014
   link: https://play.google.com/store/apps/details?id=com.itech.anabungo
   tipo: Aplicativo
   frameworks: Android
+  estado: Fora do ar
 - name: My Angola
   year_published: 2014
   link: https://play.google.com/store/apps/details?id=myangola.general
   tipo: Aplicativo
   frameworks: Android
+  estado: Fora do ar
 - name: City of Tshwane
   year_published: 2014
   link: https://play.google.com/store/apps/details?id=cityoftshwane.general
   tipo: Aplicativo
   frameworks: Android
+  estado: Fora do ar
